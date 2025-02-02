@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gouyan Restaurant</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    
+</head>
+<body>
+    <!-- Header Section -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Gouyan Restaurant</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <div>
+            <h1>Experience Fine Dining at Gouyan Restaurant</h1>
+            <button class="btn btn-primary">Our Menu</button>
+        </div>
+    </div>
+
+    <!-- Menu Section -->
+    <section class="container mt-5">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card">
+                    <img src="./image/salad.png" class="card-img-top" alt="Menu Item 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Salades niçoise</h5>
+                        <p class="card-text">salade vert, tomat cerise, riz, pomme de terre</p>
+                        <p class="card-text">20.00 DH</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card">
+                    <img src="./image/plate.png" class="card-img-top" alt="Menu Item 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Plats de chef a l'asiatique </h5>
+                        <p class="card-text">Gambas grise, Poulet, champignon</p>
+                        <p class="card-text">45.00 DH</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card">
+                    <img src="./image/gratin.png" class="card-img-top" alt="Menu Item 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Gratin viande hachee</h5>
+                        <p class="card-text">pomme de terre viande hachee frommage sause tomate</p>
+                        <p class="card-text">35.00 DH</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section class="container mt-5">
+        <div class="row">
+            <div class="col-md-6 mb-4">
+                <img src="./image/rest.png" alt="About Us" class="img-fluid">
+            </div>
+            <div class="col-md-6">
+                <h2>About Us</h2>
+                <p>Welcome to Gouyan Restaurant, where culinary artistry meets exceptional service. Our chefs are dedicated to crafting unforgettable dining experiences, using the finest ingredients to create exquisite dishes that tantalize your taste buds.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="container mt-5">
+        <h2>Contact Us</h2>
+        <form>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="email">Email address</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea class="form-control" id="message" rows="3" placeholder="Your message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit
